@@ -7,4 +7,4 @@ from . import website_support_settings
 from . import mail_template
 from . import website_support_department
 from . import website_support_sla
-from . import fsm
+from . import fieldservice
