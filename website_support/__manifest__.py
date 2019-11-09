@@ -4,7 +4,7 @@
     'author': "Sythil Tech, Adaptive City",
     'category': "Tools",
     'summary': "A helpdesk / support ticket system for your website",
-    'description': "A helpdesk / support ticket system for your website",
+    'description': "A helpdesk / support ticket system for your website - editado",
     'license':'LGPL-3',
     'data': [
         'data/ir.module.category.csv',
