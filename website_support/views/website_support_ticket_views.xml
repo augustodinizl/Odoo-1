@@ -22,6 +22,11 @@
                     <button type="object" name="request_approval" string="Request Approval"/>
                 </header>
                 <sheet>
+                    <div class="oe_button_box" name="button_box">
+                      <button name="open_sfo" string="Field Service Orders"
+                              type="object" class="oe_stat_button" icon="fa-wrench">
+                      </button>
+                    </div>
                     <div class="oe_title">
                         <label for="subject" class="oe_edit_only"/>
                         <h1><field name="subject"/></h1>
