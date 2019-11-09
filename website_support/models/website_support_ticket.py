@@ -19,6 +19,18 @@ class WebsiteSupportTicket(models.Model):
     _inherit = ['mail.thread']
     _translate = True
 
+    @api.multi
+    def open_sfo(self):
+        return{
+            'name': _('Service Field Orders'),
+            'domain' [('fsm.order.x_supp_ticket', '=', self.id)],
+            'view_type': 'form',
+            'res.model':'fsm.order',
+            'view_id':False,
+            'view_mode': 'tree,form',
+            'type': 'ir.actions.act_window',
+        }
+
     @api.model
     def _read_group_state(self, states, domain, order):
         """ Read group customization in order to display all the states in the
